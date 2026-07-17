@@ -133,7 +133,7 @@ The amplifier stage was simulated using LTspice to verify gain, waveform quality
 ## Oscilloscope Output
 
 <p align="center">
-<img src="Images/oscilloscope-output.jpg" width="750">
+<img src="Images/oscilloscope-output.jpeg" width="750">
 </p>
 
 The completed hardware was experimentally validated through:
