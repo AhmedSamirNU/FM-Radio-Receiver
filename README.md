@@ -128,7 +128,7 @@ Before constructing the hardware, the amplifier stage was simulated using **LTsp
 
 <b>Amplifier Circuit</b><br><br>
 
-<img src="Images/ltspice-amplifier.jpeg" width="390">
+<img src="Images/ltspice-amplifier.jpeg" width="410">
 
 </td>
 
@@ -136,7 +136,7 @@ Before constructing the hardware, the amplifier stage was simulated using **LTsp
 
 <b>Output Waveform</b><br><br>
 
-<img src="Images/ltspice-output.jpeg" width="390">
+<img src="Images/ltspice-output.jpeg" width="410">
 
 </td>
 
@@ -305,7 +305,6 @@ FM-Radio-Receiver
 ├── Simulation
 │   ├── FM_Receiver.asc
 │   ├── Amplifier.asc
-│   └── LTspice Screenshots
 │
 ├── Project_Report.pdf
 ├── README.md
