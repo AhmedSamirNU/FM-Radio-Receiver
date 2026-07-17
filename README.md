@@ -185,6 +185,7 @@ The table below summarizes the main hardware components used in the implementati
 | Voltage Regulator | Provides a stable DC supply voltage |
 | Battery | Powers the complete system |
 
+
 ---
 
 # 🚀 Development Workflow
