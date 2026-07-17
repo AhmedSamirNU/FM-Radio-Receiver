@@ -73,7 +73,7 @@ Throughout the project, practical engineering challenges such as RF tuning, grou
 ## Final Prototype
 
 <p align="center">
-<img src="Images/final-project.jpg" width="800">
+<img src="Images/final-project.jpeg" width="800">
 </p>
 
 ---
@@ -81,7 +81,7 @@ Throughout the project, practical engineering challenges such as RF tuning, grou
 ## Breadboard Implementation
 
 <p align="center">
-<img src="Images/breadboard-implementation.jpg" width="800">
+<img src="Images/breadboard-implementation.jpeg" width="800">
 </p>
 
 ---
@@ -89,7 +89,7 @@ Throughout the project, practical engineering challenges such as RF tuning, grou
 ## PCB Implementation
 
 <p align="center">
-<img src="Images/pcb-implementation.jpg" width="800">
+<img src="Images/pcb-implementation.jpeg" width="800">
 </p>
 
 ---
@@ -97,7 +97,7 @@ Throughout the project, practical engineering challenges such as RF tuning, grou
 ## Audio Amplifier
 
 <p align="center">
-<img src="Images/class-ab-amplifier.jpg" width="800">
+<img src="Images/class-ab-amplifier.jpeg" width="800">
 </p>
 
 ---
@@ -105,7 +105,7 @@ Throughout the project, practical engineering challenges such as RF tuning, grou
 ## Power Supply
 
 <p align="center">
-<img src="Images/power-supply.jpg" width="800">
+<img src="Images/power-supply.jpeg" width="800">
 </p>
 
 ---
@@ -115,13 +115,13 @@ Throughout the project, practical engineering challenges such as RF tuning, grou
 ### Amplifier Circuit
 
 <p align="center">
-<img src="Images/ltspice-amplifier.jpg" width="750">
+<img src="Images/ltspice-amplifier.jpeg" width="750">
 </p>
 
 ### Output Waveform
 
 <p align="center">
-<img src="Images/ltspice-output.jpg" width="750">
+<img src="Images/ltspice-output.jpeg" width="750">
 </p>
 
 The amplifier stage was simulated using LTspice to verify gain, waveform quality, and circuit stability before hardware implementation.
