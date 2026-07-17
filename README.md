@@ -1,8 +1,10 @@
 <p align="center">
-  <img src="Images/final-project.jpeg" alt="FM Radio Receiver" width="600">
+<img src="Images/final-project.jpeg" alt="FM Radio Receiver" width="600">
 </p>
 
-<h1 align="center">📻 FM Radio Receiver with Audio Amplification System</h1>
+<h1 align="center">
+📻 FM Radio Receiver with Audio Amplification System
+</h1>
 
 <p align="center">
 An analog FM radio receiver designed, simulated, and implemented using discrete electronic components. The project demonstrates RF tuning, FM demodulation, audio amplification, and practical hardware implementation using both Breadboard and PCB.
@@ -26,7 +28,7 @@ This project presents the complete design, simulation, implementation, and testi
 
 The receiver consists of an RF reception stage, an LC resonant tuning circuit for station selection, an FM demodulation stage, an audio amplifier, a regulated power supply, and an 8Ω loudspeaker.
 
-Before hardware implementation, the amplifier stage was simulated using **LTspice** to verify its performance and minimize design errors. The complete system was then assembled, tested, debugged, and validated on both **Breadboard** and **PCB**.
+The amplifier stage was first verified using **LTspice** to evaluate circuit behavior before hardware implementation. After simulation, the complete receiver was assembled, tested, debugged, and validated using both **Breadboard** and **PCB** implementations.
 
 ---
 
@@ -40,7 +42,7 @@ Before hardware implementation, the amplifier stage was simulated using **LTspic
 - 🧪 LTspice Simulation
 - 🛠 Breadboard Prototype
 - 💻 PCB Implementation
-- 📈 Oscilloscope Testing
+- 📈 Oscilloscope Verification
 - 🔋 Battery Powered
 
 ---
@@ -67,83 +69,34 @@ Before hardware implementation, the amplifier stage was simulated using **LTspic
 ```
 
 ---
-
 # 📸 Hardware Gallery
 
-<table>
-
-<tr>
-
-<td align="center">
-
-<b>Final Prototype</b><br>
-
-<img src="Images/final-project.jpeg" width="380">
-
-</td>
-
-<td align="center">
-
-<b>Breadboard Implementation</b><br>
-
-<img src="Images/breadboard-implementation.jpeg" width="380">
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center">
-
-<b>PCB Implementation</b><br>
-
-<img src="Images/pcb-implementation.jpeg" width="380">
-
-</td>
-
-<td align="center">
-
-<b>Power Supply</b><br>
-
-<img src="Images/power-supply.jpeg" width="380">
-
-</td>
-
-</tr>
-
-<tr>
-
-<td colspan="2" align="center">
-
-<b>Audio Amplifier</b><br>
-
-<img src="Images/class-ab-amplifier.jpeg" width="450">
-
-</td>
-
-</tr>
-# 🧪 LTspice Simulation
-
-Before building the hardware, the amplifier stage was designed and verified using **LTspice**. Simulation helped validate circuit behavior, analyze the output waveform, and identify potential issues before physical implementation.
+The following images show the complete hardware implementation throughout different development stages, including breadboard prototyping, amplifier testing, power supply construction, and final PCB assembly.
 
 <table>
-
 <tr>
 
 <td align="center">
 
-<b>Amplifier Circuit</b><br>
+<b>Breadboard Implementation</b><br><br>
 
-<img src="Images/ltspice-amplifier.jpeg" width="400">
+<img src="Images/breadboard-implementation.jpeg" width="250">
 
 </td>
 
 <td align="center">
 
-<b>Output Waveform</b><br>
+<b>Audio Amplifier</b><br><br>
 
-<img src="Images/ltspice-output.jpeg" width="400">
+<img src="Images/class-ab-amplifier.jpeg" width="250">
+
+</td>
+
+<td align="center">
+
+<b>Power Supply</b><br><br>
+
+<img src="Images/power-supply.jpeg" width="250">
 
 </td>
 
@@ -151,128 +104,186 @@ Before building the hardware, the amplifier stage was designed and verified usin
 
 </table>
 
+<br>
+
+<p align="center">
+
+<b>PCB Implementation</b><br><br>
+
+<img src="Images/pcb-implementation.jpeg" width="700">
+
+</p>
+
+---
+
+# 🧪 LTspice Simulation
+
+Before constructing the hardware, the amplifier stage was simulated using **LTspice** to verify circuit operation, evaluate the output waveform, and minimize implementation errors.
+
+<table>
+
+<tr>
+
+<td align="center">
+
+<b>Amplifier Circuit</b><br><br>
+
+<img src="Images/ltspice-amplifier.jpeg" width="390">
+
+</td>
+
+<td align="center">
+
+<b>Output Waveform</b><br><br>
+
+<img src="Images/ltspice-output.jpeg" width="390">
+
+</td>
+
+</tr>
+
+</table>
+
+The simulation results closely matched the practical implementation, providing confidence before assembling the physical circuit.
+
 ---
 
 # 📊 Testing & Results
 
-The completed system was experimentally tested after assembly to verify proper operation and evaluate the overall performance.
+The completed receiver was experimentally tested after assembly to evaluate its functionality and overall performance.
 
 <p align="center">
-<img src="Images/oscilloscope-output.jpeg" width="450">
+
+<b>Oscilloscope Output</b><br><br>
+
+<img src="Images/oscilloscope-output.jpeg" width="260">
+
 </p>
 
-### Testing Included
+The validation process included:
 
 - ✅ RF signal reception
-- ✅ Manual frequency tuning
-- ✅ Audio signal verification
+- ✅ Manual station tuning
+- ✅ Audio output verification
 - ✅ Oscilloscope measurements
 - ✅ Hardware debugging
 - ✅ Noise reduction
 - ✅ Power supply validation
 
 ---
-
 # 🔩 Main Hardware Components
+
+The table below summarizes the main hardware components used in the implementation and their corresponding functions.
 
 | Component | Function |
 |-----------|----------|
 | Antenna | Receives FM broadcast signals |
-| LC Tank Circuit | Tunes the desired station |
-| Variable Capacitor | Frequency adjustment |
-| Audio Amplifier | Amplifies the recovered audio |
-| 8Ω Speaker | Produces audible sound |
-| Voltage Regulator | Provides a stable supply voltage |
+| LC Tank Circuit | Selects the desired FM station by resonance |
+| Variable Capacitor | Allows manual frequency tuning |
+| Audio Amplifier | Amplifies the recovered audio signal |
+| 8Ω Speaker | Produces the audio output |
+| Voltage Regulator | Provides a stable DC supply voltage |
 | Battery | Powers the complete system |
 
 ---
 
 # 🚀 Development Workflow
 
+The project followed a systematic engineering workflow from research to final testing.
+
 ```text
-Research
-    │
-    ▼
+Research & Literature Review
+            │
+            ▼
 Component Selection
-    │
-    ▼
+            │
+            ▼
 Circuit Design
-    │
-    ▼
+            │
+            ▼
 LTspice Simulation
-    │
-    ▼
+            │
+            ▼
 Breadboard Assembly
-    │
-    ▼
-Hardware Debugging
-    │
-    ▼
+            │
+            ▼
+Circuit Debugging
+            │
+            ▼
 PCB Implementation
-    │
-    ▼
-Testing & Validation
+            │
+            ▼
+System Testing
+            │
+            ▼
+Performance Evaluation
 ```
 
 ---
+
 # ⚠ Challenges
 
-Throughout the implementation of this project, several practical engineering challenges were encountered during both simulation and hardware development. These challenges provided valuable hands-on experience in circuit analysis and troubleshooting.
+During the implementation, several practical engineering challenges were encountered. These issues required repeated testing, measurements, and hardware optimization before achieving stable circuit operation.
 
 - RF tuning sensitivity
-- Signal instability during testing
-- Breadboard parasitic capacitance
+- Signal instability
+- Breadboard parasitic effects
 - Grounding and noise issues
 - Component tolerance variations
-- Coil optimization for stable tuning
-- Hardware debugging and iterative testing
+- Coil optimization
+- Hardware debugging and troubleshooting
 
-Each issue was addressed through repeated simulations, component replacement, practical measurements, and circuit optimization until stable operation was achieved.
+Each challenge was addressed through iterative simulation, practical testing, component replacement, and circuit optimization.
 
 ---
 
 # 💡 Skills Demonstrated
 
-This project strengthened both theoretical knowledge and practical engineering skills in several areas:
+This project strengthened both theoretical understanding and practical engineering experience in the following areas:
 
 - Analog Electronics
-- Electronic Circuit Design
 - RF Communication Fundamentals
+- Electronic Circuit Design
 - Audio Amplifier Design
 - LTspice Circuit Simulation
 - Breadboard Prototyping
 - PCB Assembly
 - Oscilloscope Measurements
+- Hardware Testing
 - Circuit Debugging
-- Hardware Troubleshooting
 - Engineering Problem Solving
 
 ---
-
 # 📈 Future Improvements
 
-Several enhancements can further improve the overall performance of the system:
+Although the project successfully demonstrates the operation of an analog FM receiver, several enhancements can further improve its performance and functionality.
 
-- Improve receiver sensitivity
-- Enhance audio quality
-- Design a compact custom PCB
-- Implement automatic station tuning
-- Add stereo FM decoding
-- Improve antenna matching
-- Reduce circuit noise and interference
+- Improve receiver sensitivity.
+- Enhance audio output quality.
+- Design a compact custom PCB.
+- Add automatic station tuning.
+- Integrate stereo FM decoding.
+- Improve antenna matching.
+- Reduce circuit noise and interference.
 
----
-
-# 🎯 Learning Outcomes
-
-Through this project, we gained practical experience in designing, simulating, implementing, and testing analog electronic circuits. The project bridged theoretical concepts with real hardware implementation while improving our understanding of RF communication, audio amplification, measurement techniques, and systematic debugging.
+These improvements would increase both the reliability and the overall user experience of the receiver.
 
 ---
+
 # 🎥 Project Demonstration
 
-Watch the complete demonstration of the system in action.
+The following video demonstrates the complete hardware implementation, testing process, and practical operation of the FM Radio Receiver.
 
-[![Demo Video](https://img.shields.io/badge/Demo-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1h2xnaICsLna61kK0NpyrLvJ_sNMtKfjN/view?usp=drive_link) 
+<p align="center">
+
+<a href="https://drive.google.com/file/d/1h2xnaICsLna61kK0NpyrLvJ_sNMtKfjN/view?usp=drive_link">
+
+<img src="https://img.shields.io/badge/▶%20Watch%20Project%20Demo-Google%20Drive-0F9D58?style=for-the-badge&logo=googledrive&logoColor=white"/>
+
+</a>
+
+</p>
+
 ---
 
 # 📁 Repository Structure
@@ -292,7 +303,8 @@ FM-Radio-Receiver
 │
 ├── Simulation
 │   ├── FM_Receiver.asc
-│   └── Amplifier.asc
+│   ├── Amplifier.asc
+│   └── LTspice Screenshots
 │
 ├── Project_Report.pdf
 ├── README.md
@@ -303,13 +315,12 @@ FM-Radio-Receiver
 
 # 📚 References
 
-- Electronic Circuits II Course Material
 - LTspice Simulation Software
-- Component Datasheets
-- FM Receiver Design References
+- Electronic Circuits II Course Material
+- Semiconductor & Component Datasheets
+- Analog FM Receiver Design References
 
 ---
-
 # 👨‍💻 Author
 
 <div align="center">
@@ -322,50 +333,37 @@ Faculty of Engineering and Applied Sciences
 
 Nile University
 
+Passionate about **Embedded Systems**, **Electronics**, **IoT**, and **Analog Circuit Design**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-AhmedSamirNU-181717?style=for-the-badge&logo=github)](https://github.com/AhmedSamirNU)
+
+<!-- Replace with your LinkedIn profile if available -->
+<!--
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Samir-0077B5?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN_LINK)
+-->
+
 </div>
+
+---
+
+# 🙏 Acknowledgment
+
+This project was completed as part of the **Electronic Circuits II** course. It represents a complete engineering workflow starting from circuit analysis and simulation, followed by hardware implementation, testing, debugging, and performance evaluation.
+
+The experience significantly strengthened our practical understanding of analog electronics, RF communication, circuit simulation, PCB implementation, and engineering problem solving.
 
 ---
 
 <div align="center">
 
-### ⭐ If you found this project useful, consider giving it a Star!
+### ⭐ If you found this project interesting, consider giving it a Star!
 
-It helps support the project and makes it easier for others to discover.
+Your support is greatly appreciated.
 
 </div>
-</table>
-
----
-
-<!-- ========================================================= -->
-<!--                     END OF README                         -->
-<!-- ========================================================= -->
-
-## 🤝 Contributing
-
-Suggestions, improvements, and feedback are always welcome.
-
-If you have ideas to improve the project or optimize the circuit performance, feel free to open an Issue or submit a Pull Request.
-
----
-
-## 📄 License
-
-This project is intended for educational purposes.
-
-Feel free to use or modify the design for learning and academic projects.
-
----
 
 <p align="center">
 
-### 📡 Designed & Implemented with Passion for Analog Electronics ❤️
-
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/github/stars/AhmedSamirNU/FM-Radio-Receiver?style=social">
-<img src="https://img.shields.io/github/forks/AhmedSamirNU/FM-Radio-Receiver?style=social">
+Made with ❤️ by Ahmed Samir
 
 </p>
