@@ -327,7 +327,7 @@ FM-Radio-Receiver
 
 ## Ahmed Samir
 
-**Computer Systems Engineering Student**
+**Electronics and Communication Engineering Student**
 
 Faculty of Engineering and Applied Sciences
 
