@@ -1,5 +1,5 @@
 <p align="center">
-<img src="Images/final-project.jpeg" alt="FM Radio Receiver" width="600">
+<img src="Images/final-project.jpeg" alt="FM Radio Receiver" width="500">
 </p>
 
 <h1 align="center">
