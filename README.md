@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="Images/final-project.jpg" alt="FM Radio Receiver" width="900"/>
+  <img src="Images/final-project.jpg" alt="FM Radio Receiver" width="900">
 </p>
 
 <h1 align="center">📻 FM Radio Receiver with Audio Amplification System</h1>
 
 <p align="center">
-An Analog FM Radio Receiver capable of receiving commercial FM broadcasts (88–108 MHz), featuring RF tuning, FM demodulation, Class AB audio amplification, LTspice simulation, and practical implementation on Breadboard and PCB.
+An analog FM radio receiver designed, simulated, and implemented using discrete electronic components. The project demonstrates RF tuning, FM demodulation, audio amplification, and practical hardware implementation on both Breadboard and PCB.
 </p>
 
 <p align="center">
 
-![Project](https://img.shields.io/badge/Project-Analog%20Electronics-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Course](https://img.shields.io/badge/Course-Electronic%20Circuits%20II-blue?style=for-the-badge)
 ![Simulation](https://img.shields.io/badge/LTspice-Simulated-red?style=for-the-badge)
 ![Hardware](https://img.shields.io/badge/Hardware-Tested-success?style=for-the-badge)
-![PCB](https://img.shields.io/badge/Prototype-Breadboard%20%26%20PCB-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)
 
 </p>
@@ -22,11 +22,11 @@ An Analog FM Radio Receiver capable of receiving commercial FM broadcasts (88–
 
 # 📖 Overview
 
-This project presents the design, simulation, implementation, and testing of an **Analog FM Radio Receiver** capable of receiving commercial FM stations within the **88–108 MHz** band.
+This project presents the complete design and implementation of an Analog FM Radio Receiver capable of receiving commercial FM radio stations in the 88–108 MHz frequency band.
 
-The receiver uses an **LC resonant tuning circuit** to select the desired station, followed by an FM demodulation stage to recover the audio signal. The recovered signal is amplified using an **LM386 Class AB audio amplifier** to drive an **8Ω loudspeaker**.
+The receiver consists of an RF reception stage, an LC tuning network for station selection, an FM demodulation stage, an audio amplification stage, and a regulated power supply. The complete system was first analyzed using LTspice simulation before being assembled and tested on both Breadboard and PCB.
 
-The project was first verified using **LTspice simulation**, then implemented on a **breadboard**, and finally assembled on a **PCB** after hardware validation.
+Throughout the project, practical engineering challenges such as RF tuning, grounding, signal stability, and hardware debugging were addressed through iterative testing and optimization.
 
 ---
 
@@ -34,46 +34,46 @@ The project was first verified using **LTspice simulation**, then implemented on
 
 - 📡 FM Broadcast Reception (88–108 MHz)
 - 🎚 Manual Frequency Tuning
-- 📶 RF Signal Reception
 - 📻 FM Signal Demodulation
-- 🔊 LM386 Class AB Audio Amplifier
+- 🔊 Audio Amplification
 - 🔈 8Ω Speaker Output
-- 🧪 LTspice Simulation
-- 🛠 Breadboard Prototype
+- 🧪 LTspice Circuit Simulation
+- 🛠 Breadboard Implementation
 - 💻 PCB Implementation
-- 📈 Oscilloscope Verification
+- 📈 Oscilloscope Testing
+- 🔋 Battery Powered
 
 ---
 
 # 🏗 System Architecture
 
 ```text
-             Antenna
-                │
-                ▼
-        RF Receiver Stage
-                │
-                ▼
-      LC Resonant Tuning
-                │
-                ▼
+              Antenna
+                 │
+                 ▼
+         RF Receiver Stage
+                 │
+                 ▼
+        LC Tuning Circuit
+                 │
+                 ▼
       FM Demodulation Stage
-                │
-                ▼
- LM386 Class AB Audio Amplifier
-                │
-                ▼
-          8Ω Speaker
+                 │
+                 ▼
+      Audio Amplifier Stage
+                 │
+                 ▼
+            8Ω Speaker
 ```
 
 ---
 
-# 📷 Project Gallery
+# 📸 Project Gallery
 
 ## Final Prototype
 
 <p align="center">
-<img src="Images/final-project.jpg" width="800"/>
+<img src="Images/final-project.jpg" width="800">
 </p>
 
 ---
@@ -81,7 +81,7 @@ The project was first verified using **LTspice simulation**, then implemented on
 ## Breadboard Implementation
 
 <p align="center">
-<img src="Images/breadboard-implementation.jpg" width="800"/>
+<img src="Images/breadboard-implementation.jpg" width="800">
 </p>
 
 ---
@@ -89,7 +89,7 @@ The project was first verified using **LTspice simulation**, then implemented on
 ## PCB Implementation
 
 <p align="center">
-<img src="Images/pcb-implementation.jpg" width="800"/>
+<img src="Images/pcb-implementation.jpg" width="800">
 </p>
 
 ---
@@ -97,7 +97,7 @@ The project was first verified using **LTspice simulation**, then implemented on
 ## Audio Amplifier
 
 <p align="center">
-<img src="Images/class-ab-amplifier.jpg" width="800"/>
+<img src="Images/class-ab-amplifier.jpg" width="800">
 </p>
 
 ---
@@ -105,43 +105,43 @@ The project was first verified using **LTspice simulation**, then implemented on
 ## Power Supply
 
 <p align="center">
-<img src="Images/power-supply.jpg" width="800"/>
+<img src="Images/power-supply.jpg" width="800">
 </p>
 
 ---
 
 # 🧪 LTspice Simulation
 
-### Audio Amplifier
+### Amplifier Circuit
 
 <p align="center">
-<img src="Images/ltspice-amplifier.jpg" width="750"/>
+<img src="Images/ltspice-amplifier.jpg" width="750">
 </p>
 
 ### Output Waveform
 
 <p align="center">
-<img src="Images/ltspice-output.jpg" width="750"/>
+<img src="Images/ltspice-output.jpg" width="750">
 </p>
 
-The amplifier stage was simulated using LTspice to verify signal amplification before practical implementation.
+The amplifier stage was simulated using LTspice to verify gain, waveform quality, and circuit stability before hardware implementation.
 
 ---
 
-# 📊 Testing
+# 📊 Testing & Results
 
 ## Oscilloscope Output
 
 <p align="center">
-<img src="Images/oscilloscope-output.jpg" width="750"/>
+<img src="Images/oscilloscope-output.jpg" width="750">
 </p>
 
-The completed hardware was tested through:
+The completed hardware was experimentally validated through:
 
 - Audio signal verification
 - Oscilloscope measurements
+- RF tuning evaluation
 - Hardware debugging
-- Frequency tuning
 - Grounding optimization
 - Noise reduction
 
@@ -150,49 +150,48 @@ The completed hardware was tested through:
 # 🔩 Main Hardware Components
 
 | Component | Function |
-|------------|----------|
-| LM386 | Audio Power Amplifier |
-| BC547 / BC557 | Signal Amplification |
-| Variable Capacitor | Frequency Tuning |
-| Inductors | LC Resonance |
-| Capacitors | Filtering & Coupling |
-| Resistors | Biasing Network |
-| 8Ω Speaker | Audio Output |
-| Antenna | FM Signal Reception |
-| L7805 | Voltage Regulation |
-| 9V Battery | Power Supply |
+|-----------|----------|
+| FM Receiver Circuit | Receives FM broadcast signals |
+| Antenna | Captures RF signals |
+| LC Tank Circuit | Tunes the desired frequency |
+| Audio Amplifier | Amplifies recovered audio |
+| 8Ω Speaker | Produces sound |
+| Voltage Regulator | Provides stable supply voltage |
+| Battery | Powers the system |
 
 ---
 
-# 🚀 Engineering Workflow
+# 🚀 Development Workflow
 
 ```text
 Research
-      ↓
+    ↓
 Circuit Design
-      ↓
+    ↓
 LTspice Simulation
-      ↓
-Breadboard Implementation
-      ↓
+    ↓
+Breadboard Assembly
+    ↓
 Hardware Debugging
-      ↓
+    ↓
 PCB Assembly
-      ↓
-Testing & Optimization
+    ↓
+Testing & Validation
 ```
 
 ---
 
-# ⚠ Engineering Challenges
+# ⚠ Challenges
 
 - RF tuning sensitivity
-- LC coil optimization
-- Breadboard parasitic capacitance
-- Noise coupling
+- Coil optimization
+- Breadboard parasitic effects
+- Signal instability
 - Grounding issues
-- Component tolerances
-- Signal stability
+- Noise coupling
+- Component tolerance variations
+
+These challenges were addressed through repeated simulation, practical testing, and iterative hardware debugging until stable operation was achieved.
 
 ---
 
@@ -205,40 +204,49 @@ Testing & Optimization
 - Breadboard Prototyping
 - PCB Assembly
 - Oscilloscope Measurements
-- Hardware Debugging
-- Circuit Testing
-- Electronic Troubleshooting
+- Hardware Testing
+- Circuit Debugging
+- Engineering Problem Solving
 
 ---
 
 # 📈 Future Improvements
 
-- Improve receiver sensitivity
-- Automatic station tuning
-- Stereo FM decoding
-- Custom PCB optimization
-- Better antenna matching
-- Enhanced audio quality
+- Increase receiver sensitivity
+- Improve audio quality
+- Design a compact custom PCB
+- Add automatic station tuning
+- Integrate stereo FM decoding
+- Improve antenna matching
 
 ---
 
 # 🎥 Project Demonstration
 
-🎬 **Project Video**
-
-**Google Drive:**
+📹 **Project Video**
 
 https://drive.google.com/file/d/1h2xnaICsLna61kK0NpyrLvJ_sNMtKfjN/view
 
 ---
 
-# 📂 Repository Structure
+# 📁 Repository Structure
 
 ```text
 FM-Radio-Receiver
 │
 ├── Images
+│   ├── final-project.jpg
+│   ├── breadboard-implementation.jpg
+│   ├── pcb-implementation.jpg
+│   ├── class-ab-amplifier.jpg
+│   ├── power-supply.jpg
+│   ├── oscilloscope-output.jpg
+│   ├── ltspice-amplifier.jpg
+│   └── ltspice-output.jpg
+│
 ├── Simulation
+│   └── LTspice Files
+│
 ├── Project_Report.pdf
 ├── README.md
 └── LICENSE
@@ -256,13 +264,10 @@ Faculty of Engineering and Applied Sciences
 
 Nile University
 
-GitHub:
-https://github.com/AhmedSamirNU
+GitHub: https://github.com/AhmedSamirNU
 
 ---
 
 <p align="center">
-
-⭐ If you found this project helpful, consider giving it a Star!
-
+⭐ If you found this project interesting, consider giving it a star!
 </p>
