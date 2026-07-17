@@ -68,7 +68,7 @@ Before hardware implementation, the amplifier stage was simulated using **LTspic
 
 ---
 
-# 📸 Hardware Implementation
+# 📸 Hardware Gallery
 
 <table>
 
@@ -158,7 +158,7 @@ Before building the hardware, the amplifier stage was designed and verified usin
 The completed system was experimentally tested after assembly to verify proper operation and evaluate the overall performance.
 
 <p align="center">
-<img src="Images/oscilloscope-output.jpeg" width="500">
+<img src="Images/oscilloscope-output.jpeg" width="450">
 </p>
 
 ### Testing Included
