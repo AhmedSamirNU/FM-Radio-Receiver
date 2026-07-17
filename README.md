@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/final-project.jpg" alt="FM Radio Receiver" width="900">
+  <img src="Images/final-project.jpeg" alt="FM Radio Receiver" width="900">
 </p>
 
 <h1 align="center">📻 FM Radio Receiver with Audio Amplification System</h1>
@@ -223,10 +223,15 @@ These challenges were addressed through repeated simulation, practical testing, 
 
 # 🎥 Project Demonstration
 
-📹 **Project Video**
+<p align="center">
 
-https://drive.google.com/file/d/1h2xnaICsLna61kK0NpyrLvJ_sNMtKfjN/view
+<a href="https://drive.google.com/file/d/1h2xnaICsLna61kK0NpyrLvJ_sNMtKfjN/view" target="_blank">
 
+<img src="https://img.shields.io/badge/▶%20Watch%20Project%20Demo-Google%20Drive-0F9D58?style=for-the-badge&logo=googledrive&logoColor=white"/>
+
+</a>
+
+</p>
 ---
 
 # 📁 Repository Structure
