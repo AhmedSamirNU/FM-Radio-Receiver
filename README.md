@@ -275,7 +275,6 @@ Watch the complete demonstration of the system in action.
 [![Demo Video](https://img.shields.io/badge/Demo-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1h2xnaICsLna61kK0NpyrLvJ_sNMtKfjN/view?usp=drive_link) 
 ---
 
-
 # 📁 Repository Structure
 
 ```text
