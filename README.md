@@ -267,21 +267,14 @@ Several enhancements can further improve the overall performance of the system:
 
 Through this project, we gained practical experience in designing, simulating, implementing, and testing analog electronic circuits. The project bridged theoretical concepts with real hardware implementation while improving our understanding of RF communication, audio amplification, measurement techniques, and systematic debugging.
 
+---
 # 🎥 Project Demonstration
 
-Watch the complete hardware demonstration, testing process, and system operation.
+Watch the complete demonstration of the system in action.
 
-<p align="center">
-
-<a href="https://drive.google.com/file/d/1h2xnaICsLna61kK0NpyrLvJ_sNMtKfjN/view?usp=drive_link">
-
-<img src="https://img.shields.io/badge/▶%20Watch%20Project%20Demo-Google%20Drive-0F9D58?style=for-the-badge&logo=googledrive&logoColor=white"/>
-
-</a>
-
-</p>
-
+[![Demo Video](https://img.shields.io/badge/Demo-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1h2xnaICsLna61kK0NpyrLvJ_sNMtKfjN/view?usp=drive_link) 
 ---
+
 
 # 📁 Repository Structure
 
